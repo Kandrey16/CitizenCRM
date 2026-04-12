@@ -208,3 +208,14 @@ npm run lint
 - dashboard со сводными показателями;
 - mock API, имитирующим работу сервера;
 - расширенным набором полей и списков для демонстрации структуры данных.
+
+
+---
+## Краткий обзор приложения
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
