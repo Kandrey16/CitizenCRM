@@ -1,0 +1,241 @@
+{
+  "citizen": {
+    "addresses": [
+      {
+        "ID_Address": 1,
+        "type": "REGISTRATION",
+        "country": "Россия",
+        "region": "г. Москва",
+        "city": "Москва",
+        "street": "ул. Тверская",
+        "house": "15",
+        "building": "",
+        "apartment": "42",
+        "postalCode": "125009",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_Address": 2,
+        "type": "RESIDENTIAL",
+        "country": "Россия",
+        "region": "Московская область",
+        "city": "Красногорск",
+        "street": "ул. Ленина",
+        "house": "8",
+        "building": "корп. 2",
+        "apartment": "15",
+        "postalCode": "143400",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ]
+  },
+  "documents": {
+    "passports": [
+      {
+        "ID_Passport": "pss-001-ivanov",
+        "series": "45 01",
+        "number": "123456",
+        "issuedBy": "ОТДЕЛЕНИЕМ УФМС РОССИИ ПО Г. МОСКВЕ ПО РАЙОНУ ТВЕРСКОЙ",
+        "issueDate": "2010-06-20",
+        "code": "770-001",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ],
+    "driverLicenses": [
+      {
+        "ID_Driver_License": "dl-001-ivanov",
+        "number": "77АА 123456",
+        "type": "B, C",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ]
+  },
+  "career": {
+    "workExperience": [
+      {
+        "ID_Work_Experience": 1,
+        "organization": "ООО «ТехноСофт»",
+        "position": "Ведущий разработчик",
+        "salary": 280000,
+        "startDate": "2018-03-01",
+        "endDate": null,
+        "responsibilities": "Разработка backend-сервисов, код-ревью, менторство стажёров",
+        "reasonForLeaving": "",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_Work_Experience": 2,
+        "organization": "АО «Интегра»",
+        "position": "Инженер-программист",
+        "salary": 120000,
+        "startDate": "2014-09-01",
+        "endDate": "2018-02-28",
+        "responsibilities": "Поддержка корпоративных информационных систем",
+        "reasonForLeaving": "Смена работодателя, рост зарплаты",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ],
+    "education": [
+      {
+        "ID_Education": 1,
+        "institutionName": "Московский государственный университет имени М. В. Ломоносова",
+        "faculty": "ВМК",
+        "specialization": "Прикладная математика и информатика",
+        "degree": "Бакалавр",
+        "startYear": 2008,
+        "endYear": 2012,
+        "diplomNumber": "БВМК № 123456",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_Education": 2,
+        "institutionName": "МГУ имени М. В. Ломоносова",
+        "faculty": "ВМК",
+        "specialization": "Математические методы обработки информации",
+        "degree": "Магистр",
+        "startYear": 2012,
+        "endYear": 2014,
+        "diplomNumber": "МВМК № 789012",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ]
+  },
+  "family": {
+    "familyMembers": [
+      {
+        "ID_FamilyMembers": 1,
+        "relation": "SPOUSE",
+        "fullName": "Иванова Анна Сергеевна",
+        "birthDate": "1992-08-03",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_FamilyMembers": 2,
+        "relation": "CHILD",
+        "fullName": "Иванов Максим Иванович",
+        "birthDate": "2016-11-20",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_FamilyMembers": 3,
+        "relation": "PARENT",
+        "fullName": "Иванов Петр Николаевич",
+        "birthDate": "1962-04-12",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ]
+  },
+  "assets": {
+    "vehicles": [
+      {
+        "ID_Vehicle": 1,
+        "type": "CAR",
+        "brand": "Toyota",
+        "model": "Camry",
+        "year": 2019,
+        "number": "А123ВС77",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_Vehicle": 2,
+        "type": "MOTORCYCLE",
+        "brand": "Yamaha",
+        "model": "MT-07",
+        "year": 2021,
+        "number": "А456ВС77",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ],
+    "properties": [
+      {
+        "ID_Propertie": 1,
+        "type": "APARTMENT",
+        "address": "г. Москва, ул. Тверская, д. 15, кв. 42",
+        "area": "Москва, ЦАО",
+        "square": 68.5,
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_Propertie": 2,
+        "type": "GARAGE",
+        "address": "г. Москва, ГСК «Север», бокс 12",
+        "area": "САО",
+        "square": 18.0,
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ]
+  },
+  "medicine": {
+    "medicalInfo": [
+      {
+        "ID_MedicalInfo": 1,
+        "height": 182,
+        "weight": 84,
+        "diagnes": "Гипертония I степени (под наблюдением)",
+        "allergies": "Пыльца берёзы (сезонная)",
+        "lastCheckUpDate": "2025-02-10",
+        "bloodGroup": "A(II) Rh+",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ]
+  },
+  "additional": {
+    "socialProfiles": [
+      {
+        "ID_SocialProfile": "soc-ivanov-vk",
+        "network": "VK",
+        "userName": "ivan_ivanov_official",
+        "profile_url": "https://vk.com/ivan_ivanov_official",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_SocialProfile": "soc-ivanov-tg",
+        "network": "TELEGRAM",
+        "userName": "@ivan_ivanov",
+        "profile_url": "https://t.me/ivan_ivanov",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_SocialProfile": "soc-ivanov-li",
+        "network": "LINKEDIN",
+        "userName": "ivan-ivanov-moscow",
+        "profile_url": "https://linkedin.com/in/ivan-ivanov-moscow",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ],
+    "hobbies": [
+      {
+        "ID_Hobby": 1,
+        "name": "Бег",
+        "description": "Участие в городских полумарафонах, тренировки 3 раза в неделю",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_Hobby": 2,
+        "name": "Фотография",
+        "description": "Пейзажная и уличная съёмка, обработка в Lightroom",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ],
+    "languages": [
+      {
+        "ID_Languages": "lang-ivanov-ru",
+        "language": "RUSSIAN",
+        "grade": "NATIVE",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_Languages": "lang-ivanov-en",
+        "language": "ENGLISH",
+        "grade": "C1",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      },
+      {
+        "ID_Languages": "lang-ivanov-de",
+        "language": "GERMAN",
+        "grade": "B1",
+        "ID_Citizen": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      }
+    ]
+  }
+}
