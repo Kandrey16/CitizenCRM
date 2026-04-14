@@ -1,5 +1,15 @@
 # Test CRM
 
+## Краткий обзор приложения
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+
 Тестовое задание на React/TypeScript: интерфейс для учета граждан с таблицей, карточкой, разделами данных и главной страницей с показателями.
 
 ## О проекте
@@ -211,11 +221,3 @@ npm run lint
 
 
 ---
-## Краткий обзор приложения
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-![alt text](image-2.png)
-
-![alt text](image-3.png)
